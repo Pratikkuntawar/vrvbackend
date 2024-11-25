@@ -11,17 +11,17 @@ router.get('/public', (req, res) => {
 
 // Admin-only route
 router.get('/admin', auth, roleAuth(['Admin']), (req, res) => {
-  res.status(200).json({ message: 'Welcome Admin!' });
+  res.status(200).json({ message: 'Welcome to Admin Route!' });
 });
 
 // User route
 router.get('/user', auth, roleAuth(['User']), (req, res) => {
-  res.status(200).json({ message: 'Welcome User!' });
+  res.status(200).json({ message: 'Welcome to  User Route !' });
 });
 
 // Moderator route
 router.get('/moderator', auth, roleAuth(['Moderator']), (req, res) => {
-  res.status(200).json({ message: 'Welcome Moderator!' });
+  res.status(200).json({ message: 'Welcome to  Moderator Route!' });
 });
 
 module.exports = router;
