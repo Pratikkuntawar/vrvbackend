@@ -17,6 +17,7 @@ you can access backend with the help of given url
 
 Open Postman
 Launch Postman on your system.
+
 **To Test Register Route**
 Create a New Request
 Click the "New" button or on three dots and select " Add Request".
@@ -26,12 +27,16 @@ Set the Request Body
 Go to the "Body" tab in Postman.
 Select "raw" and change the format to JSON.
 Input the required data in JSON format. For example:
+
+
 {
   "name": "Johny Doe",
   "email": "johny.doe@example.com",
   "password": "securepassword",
   "role": "User"
 }
+
+
 Note: The "role" field should be one of the following: "Admin", "User", or "Moderator".
 
 Send the Request
