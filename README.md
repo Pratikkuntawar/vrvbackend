@@ -18,6 +18,8 @@ you can access backend with the help of given url
 Open Postman
 Launch Postman on your system.
 
+**Server might take few seconds to respond,So keep wait for few second after making request to the route**
+
 **To Test Register Route**
 Create a New Request
 Click the "New" button or on three dots and select " Add Request".
